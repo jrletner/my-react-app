@@ -16,6 +16,7 @@
 .new-goal label {
   font-weight: bold;
   margin: 0.5rem;
+  color: white;
 }
 
 .new-goal button:hover {

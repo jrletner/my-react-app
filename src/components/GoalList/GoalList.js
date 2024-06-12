@@ -7,9 +7,6 @@ export default function GoalList(props) {
     props.onCompleteGoal(event);
   }
 
-  // place the goals in an array
-  const pols = props.goals.length;
-
   // render the list of goals
   return (
     // don't display if there are no goals

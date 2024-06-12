@@ -21,7 +21,7 @@ export default function GoalList(props) {
               }}
               key={goal.id}
             >
-              {goal.text}
+              {goal.text} - Due: {goal.dueDate}
             </li>
           );
         })}

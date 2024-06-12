@@ -13,6 +13,11 @@
   width: 5rem;
 }
 
+.new-goal label {
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
 .new-goal button:hover {
   background: linear-gradient(to right, #db1ed5, #bd41ff);
 }

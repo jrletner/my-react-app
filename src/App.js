@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <div className="goals">
-      <h2>Course Goals</h2>
+      <h2>Learning React Goals</h2>
       <NewGoal onAddGoal={addNewGoalHandler} />
       <GoalList onCompleteGoal={completeGoalHandler} goals={courseGoals} />
     </div>

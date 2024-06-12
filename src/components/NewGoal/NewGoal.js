@@ -31,6 +31,7 @@ export default function NewGoal(props) {
 
     // reset the enteredText state
     setEnteredText('');
+    setEnteredDate('');
   }
 
   // As the input text changes, update the enteredText state
@@ -47,7 +48,7 @@ export default function NewGoal(props) {
         <label>Course Goal</label>
         <input required onChange={textChangeHandler} value={enteredText} type="text" />
         <label>Due Date</label>
-        <input required type="date" onChange={dateChangeHandler} />
+        <input value={enteredDate} required type="date" onChange={dateChangeHandler} />
         <button type="submit">Add Goal</button>
       </form>
     </div>

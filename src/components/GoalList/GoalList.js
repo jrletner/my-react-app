@@ -7,10 +7,15 @@ export default function GoalList(props) {
     props.onCompleteGoal(event);
   }
 
+  // place the goals in an array
+  const pols = props.goals.length;
+
   // render the list of goals
   return (
+    // don't display if there are no goals
+
     <div className="goal-list">
-      <h2>Goal List</h2>
+      {pols ? <h2>Goal List</h2> : <h4>Please enter a goal</h4>}
       <ul>
         {props.goals.map((goal) => {
           return (

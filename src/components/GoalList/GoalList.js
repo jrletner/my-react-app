@@ -15,7 +15,7 @@ export default function GoalList(props) {
     // don't display if there are no goals
 
     <div className="goal-list">
-      {pols ? <h2>Goal List</h2> : <h4>Please enter a goal</h4>}
+      {props.goals.length > 0 ? <h2>Goal List</h2> : <h4>Please enter a goal</h4>}
       <ul>
         {props.goals.map((goal) => {
           return (

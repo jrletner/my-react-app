@@ -1,0 +1,21 @@
+.goal-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.goal-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.goal-list li {
+  list-style: circle;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.new-goal {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-goal button {
+  background: linear-gradient(to right, #b252e6, #ef39e9);
+  font-weight: bold;
+  height: 30px;
+  margin-top: 5px;
+  width: 5rem;
+}
+
+.new-goal button:hover {
+  background: linear-gradient(to right, #db1ed5, #bd41ff);
+}
+
+.new-goal button:active {
+  background: #db1ed5;
+  color: white;
+}
+
+.new-goal input {
+  font: inherit;
+  height: 30px;
+  width: 10rem;
+}
